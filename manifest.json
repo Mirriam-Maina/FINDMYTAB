@@ -1,0 +1,18 @@
+{
+    "name": "TabSearch",
+    "version": "1.0",
+    "description": "TabSearch",
+    "manifest_version": 2,
+    "content_scripts":[{
+        "matches": ["<all_urls>"],
+        "js": ["js/content.js"]
+     }],
+      "browser_action":{
+          "default_icon": "images/icon.png",
+          "default_popup":"html/popup.html",
+          "default_title":"Find your Tabs"
+      },
+      "permissions": [
+        "tabs"
+      ]
+  }

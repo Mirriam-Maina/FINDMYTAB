@@ -1,0 +1,37 @@
+
+.violet .button {
+    width: 70px;
+ 
+}
+
+.container{
+    padding: 20px;
+    background-color: black;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.error{
+    color: #a291fb;
+    display: none;
+}
+
+.text{
+    color:#a291fb;
+    line-height: 1em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.show{
+    visibility: true;
+    color:#a291fb;
+}
+
+.input .focus{
+    padding-bottom: 20px !important;    
+}
+
+button {
+    padding-top: 10px !important;
+    margin-top: 20px !important;
+}
