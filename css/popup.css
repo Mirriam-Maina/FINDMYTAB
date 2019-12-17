@@ -5,8 +5,10 @@
 }
 
 .container{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     background-color: black;
+    padding-left: 40px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
@@ -19,16 +21,13 @@
     color:#a291fb;
     line-height: 1em;
     margin-bottom: 20px;
+    text-align: center;
     font-weight: bold;
 }
 
 .show{
     visibility: true;
     color:#a291fb;
-}
-
-.input .focus{
-    padding-bottom: 20px !important;    
 }
 
 button {

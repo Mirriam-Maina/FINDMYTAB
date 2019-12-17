@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', ()=>{
+  let foundTabs = [];
     const onclick = () => {
         const tabToSearch = document.getElementById('tab').value;
         chrome.windows.getAll({populate:true},(windows) => {
@@ -28,7 +29,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
     document.getElementById('search-button').addEventListener('click', onclick);
     document.getElementById('tab').addEventListener('keypress', (e)=>{
-      const key = e.which || e.keyCdode;
+      const key = e.which || e.keyCode;
       if(key === 13){
         onclick();
       }
