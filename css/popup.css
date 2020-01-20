@@ -1,26 +1,30 @@
+html, body{
+  height: max-content;
+  max-width: 270px;
+  padding: 0;
+  margin: 0;
+}
 
 .violet .button {
     width: 70px;
- 
 }
 
 .container{
-    padding-top: 20px;
-    padding-bottom: 15px;
     background-color: black;
-    padding-left: 40px;
+    padding: 10px 10px 10px 10px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    max-width: 270px;
 }
 
 .error{
-    color: #a291fb;
+    color: #fa6f6f;
     display: none;
+    padding: 0px
 }
 
 .text{
     color:#a291fb;
     line-height: 1em;
-    margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
 }
@@ -30,7 +34,21 @@
     color:#a291fb;
 }
 
-button {
+/* button {
     padding-top: 10px !important;
     margin-top: 20px !important;
+} */
+
+.buttons {
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input{
+  width: 100%;
+}
+
+.ui{
+  padding-bottom: 5px;
 }
